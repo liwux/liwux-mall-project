@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.liwux.mall</groupId>
-    <artifactId>mall-mall</artifactId>
+    <artifactId>liwux-mall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mall-mall</name>
-    <description>Liwux-三高商城-聚合项目</description>
+    <name>Liwux-Mall</name>
+    <description>Liwux-三高商城-微服务项目</description>
     <packaging>pom</packaging>
 
     <modules>
