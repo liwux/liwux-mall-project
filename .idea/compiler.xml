@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="renren-fast" />
-        <module name="mall-order" />
         <module name="mall-coupon" />
         <module name="mall-ware" />
+        <module name="renren-fast" />
+        <module name="mall-order" />
         <module name="mall-product" />
         <module name="mall-member" />
+        <module name="renren-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="mall-product" target="1.8" />
       <module name="mall-ware" target="1.8" />
       <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,7 @@
       <module name="mall-product" options="-parameters" />
       <module name="mall-ware" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
     </option>
   </component>
 </project>
