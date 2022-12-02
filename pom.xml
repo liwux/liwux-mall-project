@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>mall-commons</module>
         <module>mall-ware</module>
         <module>mall-member</module>
         <module>mall-coupon</module>

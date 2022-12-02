@@ -14,18 +14,9 @@
         <module name="mall-product" />
         <module name="mall-member" />
         <module name="renren-generator" />
+        <module name="mall-commons" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="liwux-mall-project" target="1.5" />
-      <module name="mall-coupon" target="1.8" />
-      <module name="mall-member" target="1.8" />
-      <module name="mall-order" target="1.8" />
-      <module name="mall-product" target="1.8" />
-      <module name="mall-ware" target="1.8" />
-      <module name="renren-fast" target="1.8" />
-      <module name="renren-generator" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
