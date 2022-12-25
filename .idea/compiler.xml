@@ -13,8 +13,8 @@
         <module name="mall-order" />
         <module name="mall-product" />
         <module name="mall-member" />
-        <module name="renren-generator" />
         <module name="mall-commons" />
+        <module name="renren-generator" />
       </profile>
     </annotationProcessing>
   </component>

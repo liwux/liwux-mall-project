@@ -61,7 +61,6 @@ public class BrandController {
     @RequiresPermissions("product:brand:save")
     public R save(@RequestBody BrandEntity brand){
 		brandService.save(brand);
-
         return R.ok();
     }
 
