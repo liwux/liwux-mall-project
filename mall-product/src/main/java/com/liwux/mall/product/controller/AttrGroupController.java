@@ -23,7 +23,7 @@ import com.liwux.common.utils.R;
  *
  * @author liwux
  * @email xix0.618@gmail.com
- * @date 2022-12-02 23:37:27
+ * @date 2022-12-27 22:44:51
  */
 @RestController
 @RequestMapping("product/attrgroup")
