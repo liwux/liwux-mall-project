@@ -6,6 +6,8 @@ import java.util.Map;
 import com.liwux.mall.order.fegin.ProductService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
 import com.liwux.mall.order.entity.OrderEntity;
@@ -22,6 +24,7 @@ import com.liwux.common.utils.R;
  * @email xix0.618@gmail.com
  * @date 2022-12-26 15:24:23
  */
+@RefreshScope
 @RestController
 @RequestMapping("order/order")
 public class OrderController {
@@ -34,6 +37,17 @@ public class OrderController {
     @GetMapping("/products")
     public R queryProduct(){
         return R.ok().put("products",productService.queryAllBrand());
+    }
+
+    @Value("${user.username}")
+    String username;
+
+    @Value("${user.age}")
+    String age;
+
+    @GetMapping("/users")
+    public R queryUser(){
+        return R.ok().put("username",username).put("age",age);
     }
 
     /**

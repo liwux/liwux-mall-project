@@ -9,6 +9,8 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+      config:
+        namespace: order
   application:
     name: mall-order
 mybatis-plus:
@@ -18,3 +20,7 @@ mybatis-plus:
       id-type: auto #主键自增
 server:
   port: 8030
+
+user:
+  username: hanxinxin
+  age: 33

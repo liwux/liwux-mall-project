@@ -15,12 +15,14 @@
         <module name="mall-member" />
         <module name="mall-commons" />
         <module name="renren-generator" />
+        <module name="mall-gateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mall-coupon" options="-parameters" />
+      <module name="mall-gateway" options="-parameters" />
       <module name="mall-member" options="-parameters" />
       <module name="mall-order" options="-parameters" />
       <module name="mall-product" options="-parameters" />
