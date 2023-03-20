@@ -23,7 +23,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus</artifactId>
-            <version>3.4.3.4</version>
+            <version>3.5.2</version>
         </dependency>
         <!-- 添加lombok的依赖 -->
         <dependency>

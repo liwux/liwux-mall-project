@@ -1,6 +1,7 @@
 package com.liwux.mall.product.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.shiro.authz.annotation.RequiresPermissions;
@@ -40,6 +41,13 @@ public class CategoryController {
         PageUtils page = categoryService.queryPage(params);
 
         return R.ok().put("page", page);
+    }
+
+    @RequestMapping("/listTree")
+    @RequiresPermissions("product:category:listTree")
+    public R listTree(@RequestParam Map<String, Object> params){
+        List<CategoryEntity> categoryEntityList = categoryService.queryPageWithTree(params);
+        return R.ok().put("data", categoryEntityList);
     }
 
 
